@@ -1,0 +1,10 @@
+@import "components/variables";
+@import "components/header/header";
+
+*{
+	box-sizing: border-box;
+}
+.container{
+	padding-right: 0 !important; 
+	padding-left: 0 !important;
+}

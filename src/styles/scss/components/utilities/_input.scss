@@ -1,0 +1,25 @@
+.form{
+    &__input {
+        width: 16rem;
+        padding: 5px 10px;
+
+        border-radius: 0;
+        border: 1.5px solid #9c97a0;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        &__input{
+            border: none;
+            outline:none;
+            &::placeholder {
+                color: #adb5bd;
+                text-transform: uppercase;
+            };
+            &:focus {
+                box-shadow: none;
+                border-color: #9c97a0
+            };
+            
+        }
+    }
+}

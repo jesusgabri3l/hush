@@ -45,11 +45,14 @@
                     <p class="footer__nav__item__title">Newsletter</p>
                     <ul class="footer__nav__item__list">
                         <li class="footer__nav__item__list__item">
-                            <p class="footer__nav__item__list__item__text">Registrate para ser el primero en recibir nuestras noticias</p>
+                            <p class="footer__nav__item__list__item__text text--darkgrey">Registrate para ser el primero en recibir nuestras noticias</p>
                         </li>
                         <li class="footer__nav__item__list__item">
-                            <b-nav-form class="navbarL__rightSection__form">
-                                <b-form-input size="sm" class="mr-sm-2 navbarL__rightSection__form__input" placeholder="Search"></b-form-input>
+                            <b-nav-form class="form">
+                                <div class="form__input">
+                                    <b-form-input size="sm" class="mr-sm-2 form__input__input" placeholder="E-MAIL"></b-form-input>
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
                             </b-nav-form>
                         </li>
                     </ul>

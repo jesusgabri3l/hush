@@ -83,6 +83,24 @@
       box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.16);
       rotate: 1deg; }
 
+.form__input {
+  width: 16rem;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 1.5px solid #9c97a0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .form__input__input {
+    border: none;
+    outline: none; }
+    .form__input__input::placeholder {
+      color: #adb5bd;
+      text-transform: uppercase; }
+    .form__input__input:focus {
+      box-shadow: none;
+      border-color: #9c97a0; }
+
 .header .hotSale {
   width: 100vw;
   background-color: #7a4a58;

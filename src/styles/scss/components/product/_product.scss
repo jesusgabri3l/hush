@@ -38,8 +38,10 @@
             	background: #c8c6ca;
             	color: #545454;;
             	font-weight: 700;
+                transition: 0.3s all;
             	&:hover{
             		background: #e8e8e9;
+                    transform: scale(1.08);
             	};
             };
              &__guia{
@@ -61,4 +63,13 @@
     			};
     		};
     	};
+        &__grid__actions__fav{
+            font-size: 36px;
+            color: #d1d1d0;
+            transition: .2s all;
+            &:hover{
+                color: rgb(239, 48, 48);
+                transform: scale(1.1);
+            }
+        }
     }

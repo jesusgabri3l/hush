@@ -3,7 +3,7 @@
     <section class="complete container mt-4">
         <h2 class="complete__title text text--serif">Completa tu look</h2>
         <div class="px-5">
-            <Carousel :autoplay="true" :perPageCustom="[[1024, 4]]" :navigationEnabled="true" :perPage="1" :paginationEnabled = "false" class="mt-4 carousel">
+            <Carousel :perPageCustom="[[1024, 4]]" :navigationEnabled="true" :perPage="1" :paginationEnabled = "false"  class="mt-4 carousel">
                 <Slide v-for="product in products" :key="product.name">
                     <CardProduct :product = "product" :action = "true"/>
                 </Slide>

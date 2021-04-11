@@ -1,5 +1,7 @@
 <template>
     <div>
+    <!-- STYLES AT PRODUCT/PRODUCT -->
+
         <!-- NAME AND BASIC INFO SECTION -->
         <section class="infoProduct__grid__basic">
             <article>
@@ -20,15 +22,15 @@
                         Añadir al carrito
                     </button>
                 </div>
-                <div class="col-md-3">
-                    <p>Favoritos</p>
+                <div class="col-md-3 pt-2 pl-5">
+                    <i class="fa fa-heart infoProduct__grid__actions__fav"></i>
                 </div>
             </div>
         </section>
     </div>
 </template>
 <script>
-import DetailSection from './DetailSection'
+import DetailSection from '../DetailSection'
 export default {
     name: 'InfoProductSection',
     components: {DetailSection},

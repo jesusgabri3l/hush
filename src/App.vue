@@ -1,10 +1,11 @@
 <template>
-    <div id="app" class="pb-5">
+    <div id="app">
         <Header />
         <Breadcum />
         <ProductoPage />
         <CompleteYourLook :products = "products"/>
         <RecommendedProducts :products = "products"/>
+        <Footer />
     </div>
 </template>
 <script>
@@ -13,10 +14,11 @@ import Breadcum from './components/layouts/Breadcum.vue'
 import ProductoPage from './views/ProductPage.vue'
 import CompleteYourLook from './components/layouts/products/CompleteYourLook';
 import RecommendedProducts from './components/layouts/products/RecommendedProducts';
+import Footer from './components/layouts/footer/Footer.vue'
 
 export default {
     name: 'App',
-    components: { Header, Breadcum, ProductoPage, CompleteYourLook, RecommendedProducts },
+    components: { Header, Breadcum, ProductoPage, CompleteYourLook, RecommendedProducts, Footer },
 
     data() {
         return {

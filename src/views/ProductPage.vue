@@ -15,8 +15,8 @@
     </section>
 </template>
 <script>
-import ImageSection from '@/components/product/ImageSection'
-import InfoProductSection from '@/components/product/InfoProductSection'
+import ImageSection from '@/components/product/grid/ImageSection'
+import InfoProductSection from '@/components/product/grid/InfoProductSection'
 import MoreInfo from '@/components/product/MoreInfo';
 
 export default {

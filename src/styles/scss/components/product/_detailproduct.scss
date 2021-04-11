@@ -1,4 +1,9 @@
 .moreInfoProduct{
+	width: 100%;
+        @media only screen and (max-width: $break-point) {
+        	padding-right: 15px;
+        	padding-left: 15px;
+        }
 	&__text{
 		color:rgb(150, 150, 150);
 		line-height: 27px;

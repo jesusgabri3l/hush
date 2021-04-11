@@ -42,7 +42,7 @@
                             <img :src="`storage/${product.foto}`" class="cart__container__basic__img img-fluid mr-2">
                             <div class="d-flex flex-column justify-content-center">
                                 <p class="text cart__container__basic__title text--darkgrey">{{product.nombre}}</p>
-                                <small class="cart__container__basic__price text--primary font-weight-bold">{{product.precio}}</small>
+                                <small class="cart__container__basic__price text--primary font-weight-bold">$ {{product.precio}}</small>
                             </div>
                         </div>
                         <div class="cart__container__actions">

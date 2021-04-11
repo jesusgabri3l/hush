@@ -17,12 +17,12 @@
         <!-- ACTIONS SECTION -->
         <section class="infoProduct__grid__actions mt-4">
             <div class="infoProduct__grid__actions__grid row">
-                <div class="col-md-9">
+                <div class="col-md-9 col-6">
                     <button class="button button--primary">
                         Añadir al carrito
                     </button>
                 </div>
-                <div class="col-md-3 pt-2 pl-5">
+                <div class="col-md-3 col-6 pt-2 pl-5">
                     <i class="fa fa-heart infoProduct__grid__actions__fav"></i>
                 </div>
             </div>

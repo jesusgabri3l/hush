@@ -1,6 +1,6 @@
 .footer{
 	margin-top: 3.5rem;
-	
+	width: 100%;
 	&__socialMedia{
 		height: 200px;
 		background-color: #e7e6e2;
@@ -37,6 +37,10 @@
 		padding-top: 1.5rem;
 		border-bottom: .5px solid #ccc;
 		padding-bottom: 2.5rem;
+        @media only screen and (max-width: $break-point) {
+        	padding-left: 15px;
+        	padding-right: 15px;
+		}
 		&__container{
 			.footer__nav__item{
 				&__title{
@@ -66,4 +70,10 @@
 			}
 		}
 	};
+
+	&__brand{
+        @media only screen and (max-width: $break-point) {
+        	display: none;
+		}
+	}
 }

@@ -3,7 +3,7 @@
     <footer class="footer">
         <SocialMediaSection />
         <NavSection/>
-        <div class="pt-3">
+        <div class="pt-3 footer__brand">
             <div class="container">
                 <div class="d-flex justify-content-center">
                     <img src="../../../assets/img/brands.png">

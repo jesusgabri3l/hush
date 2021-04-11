@@ -21,7 +21,7 @@
                         <b-form-input size="sm" class="mr-sm-2 navbarL__rightSection__form__input" placeholder="Search"></b-form-input>
                     </b-nav-form>
                     <strong class="navbarL__rightSection__alert">Envios gratis para pedidos superiores a $300.000</strong>
-                    <button class="navbarL__rightSection__button btn">
+                    <button class="navbarL__rightSection__button btn text text--serif">
                         Carrito 0
                     </button>
                 </b-navbar-nav>

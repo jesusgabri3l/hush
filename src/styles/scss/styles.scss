@@ -1,8 +1,23 @@
 @import "components/variables";
+@import "components/utilities/text";
+@import "components/utilities/breadcum";
+@import "components/utilities/button";
 @import "components/header/header";
+@import "components/header/navbarL";
+@import "components/product/product";
+@import "components/product/detailproduct";
+@import "components/moreproducts/complete";
+@import "components/product/cardproduct";
+
+
 
 *{
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	max-width: 100vw;
+	overflow-x: hidden;
 }
 .container{
 	padding-right: 0 !important; 

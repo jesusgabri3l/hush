@@ -2,8 +2,8 @@
     //NAVBAR 
     .navbarL{
         background-color: #fff !important;
-        border-bottom: 1px solid #9c97a0; 
         padding: 5px !important;
+        border-bottom: 1px solid #9c97a0; 
         &__container{
             flex-direction: column;
             align-items: start;
@@ -12,14 +12,13 @@
                 justify-content: space-between;   
                 align-items: center;     
             }
-        }
+        };
         &__brand{
             margin-bottom: 2px;
             .navbarL_title{
                 margin-top: 0;
                 margin-bottom: 0;
-            }
-
+            };
             &__img{
                 height: 90px;
                 width: 90px;
@@ -34,12 +33,22 @@
             width: 100%;
             position: relative;
             top: 0;
+            @media only screen and (max-width: $break-point) {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-left: 15px;
+            };
             .navbarL__list{
                 &__link{
                     text-transform: uppercase;
                     font-weight: 700;
-                    margin-right: 24px;
+                    margin-right: 22px;
                     .nav-link{
+                        font-family: 'Serif';
+                        letter-spacing: 0.5px;
+                        font-size: 15px;
+                        color: rgba(0,0,0,0.65);
                         padding: {
                             left: 0;
                             right: 20px;
@@ -58,7 +67,10 @@
             right: 0;
             @media only screen and (max-width: $break-point) {
                 position: static;
-            }
+                justify-content: flex-start;
+                align-items: flex-start;
+                width: 100%;
+            };
             &__form{
                 &__input{
                     width: 16rem;
@@ -68,10 +80,10 @@
                     &::placeholder{
                         color: #adb5bd;
                         text-transform:uppercase;
-                    }
+                    };
                     &:focus{
                         box-shadow: 0 2px 2px rgba(0,0,0,16%);
-                    }
+                    };
                 }
             };
             &__alert{
@@ -82,12 +94,15 @@
                 font-weight: 400;
                 color: $primary-color;
                 font-size: 15px;
+            @media only screen and (max-width: $break-point) {
+                display: none;
+            }
             };
             &__button{
                 text-transform: uppercase;
                 letter-spacing: 0.5px;
                 font-weight: 700;
-                color: #515357
+                color: #515357;
             }
         }
     };

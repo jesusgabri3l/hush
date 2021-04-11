@@ -13,9 +13,12 @@ require('@/assets/styles/normalize.css')
 //CSS - my styles
 require('@/styles/css/styles.css')
 
+//LIBRARIES
+import VueCarousel from 'vue-carousel';
 
 
 Vue.use(BootstrapVue)
+Vue.use(VueCarousel);
 
 Vue.config.productionTip = false
 

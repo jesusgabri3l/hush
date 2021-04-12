@@ -26,9 +26,9 @@
                 height: auto;
                 width: 100%;
                 border-radius: 2px;
-                @media only screen and (max-width: $break-point) {
+                @media only screen and (max-width: 760px) {
                     max-width: 70%;
-                }
+                };
             }
         };
 
@@ -75,12 +75,18 @@
             position: absolute;
             top: -5rem;
             right: 0;
-            @media only screen and (max-width: $break-point) {
+            @media only screen and (max-width: 768px) {
                 position: static;
                 justify-content: flex-start;
                 align-items: flex-start;
                 width: 100%;
             };
+            @media only screen and (max-width: $break-point) {
+                    position: static;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
             &__form{
                 &__input{
                     width: 16rem;

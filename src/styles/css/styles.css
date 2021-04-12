@@ -194,7 +194,7 @@
       height: auto;
       width: 100%;
       border-radius: 2px; }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 760px) {
         .header .navbarL__brand__img {
           max-width: 70%; } }
   .header .navbarL__collapse {
@@ -233,11 +233,17 @@
     position: absolute;
     top: -5rem;
     right: 0; }
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 768px) {
       .header .navbarL__rightSection {
         position: static;
         justify-content: flex-start;
         align-items: flex-start;
+        width: 100%; } }
+    @media only screen and (max-width: 1024px) {
+      .header .navbarL__rightSection {
+        position: static;
+        justify-content: center;
+        align-items: center;
         width: 100%; } }
     .header .navbarL__rightSection__form__input {
       width: 16rem;

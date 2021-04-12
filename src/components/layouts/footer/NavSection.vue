@@ -19,7 +19,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__nav__item col-md-3">
+                <div class="footer__nav__item col-md-3 col-6 mt-lg-0 mt-3">
                     <p class="footer__nav__item__title">Mi cuenta</p>
                     <ul class="footer__nav__item__list">
                         <li class="footer__nav__item__list__item">
@@ -30,7 +30,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__nav__item col-md-3">
+                <div class="footer__nav__item col-md-3 col-6 mt-lg-0 mt-3">
                     <p class="footer__nav__item__title">Recursos</p>
                     <ul class="footer__nav__item__list">
                         <li class="footer__nav__item__list__item">
@@ -41,19 +41,19 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__nav__item col-md-3">
+                <div class="footer__nav__item col-md-3 mt-lg-0 mt-3">
                     <p class="footer__nav__item__title">Newsletter</p>
                     <ul class="footer__nav__item__list">
                         <li class="footer__nav__item__list__item">
                             <p class="footer__nav__item__list__item__text text--darkgrey">Registrate para ser el primero en recibir nuestras noticias</p>
                         </li>
                         <li class="footer__nav__item__list__item">
-                            <b-nav-form class="form">
+                            <form class="form">
                                 <div class="form__input">
-                                    <b-form-input size="sm" class="mr-sm-2 form__input__input" placeholder="E-MAIL"></b-form-input>
+                                    <input class="mr-sm-2 form__input__input" placeholder="E-MAIL" />
                                     <i class="fa fa-angle-right"></i>
                                 </div>
-                            </b-nav-form>
+                            </form>
                         </li>
                     </ul>
                 </div>

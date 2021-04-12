@@ -13,14 +13,24 @@
 			letter-spacing: 0.9px;
 			text-transform: uppercase;
 			color: $dark-grey;
+			@media only screen and (max-width: $break-point) {
+        		font-size: 25px;
+    		}
 		};
 		&__links{
 			&__list{
 				list-style: none;
+				padding: 0;
+				margin: 0;
 				&__item{
-					margin-right: 15px;
 					&__link{
 						color: $dark-grey;
+						&__icon{
+								font-size: 20px;
+	        					@media only screen and (max-width: $break-point) {
+	        						font-size: 22px;
+	        					}
+							}
 					}
 				}
 			}
@@ -30,6 +40,12 @@
 			border-color: $dark-grey;
 			border: 1px solid $dark-grey;
 			width: 10%;
+			margin-top: 10px !important;
+			margin-bottom: 10px !important;
+	        	@media only screen and (max-width: $break-point) {
+	        		width: 20%;
+	        	}
+
 		}
 	};
 
@@ -48,22 +64,34 @@
 					color:$dark-grey;
 					text-transform:uppercase;
 					font-weight: 700;
-					letter-spacing: 0.2px
+					letter-spacing: 0.2px;
+        			@media only screen and (max-width: $break-point) {
+        				font-size: 18px;
+
+        			}
 				};
 				&__list{
 					padding: 0;
 					margin: 0;
 					list-style: none;
 					&__item{
-						margin-bottom: .5rem;
+						margin-bottom: .3rem;
 						&__link{
 							text-transform: uppercase;
 							letter-spacing: 0.2px;
 							font-size: 15px;
 							color: $dark-grey;
+							font-family: 'Roboto', 'sans-serif';
+        					@media only screen and (max-width: $break-point) {
+        						font-size: 12px;
+        						line-height: 1;
+							}
 							&:hover{
 								cursor: pointer;
 							}
+						};
+						&__text{
+							font-family: 'Roboto', 'sans-serif'
 						}
 					}
 				}

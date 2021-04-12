@@ -20,7 +20,6 @@
             };
         }
         &__talla{
-
             &__container{
             	padding: {
             		right: 8px;
@@ -31,6 +30,7 @@
             &__item{
             	display: block;
             	width: 100%;
+                width: 4rem;
             	height: 4rem;
             	display: flex;
             	align-items: center;
@@ -39,6 +39,10 @@
             	color: #545454;;
             	font-weight: 700;
                 transition: 0.3s all;
+                @media only screen and (max-width: $break-point) {
+                    height: 3rem;
+                    width: 3rem;
+                }
             	&:hover{
             		background: #e8e8e9;
                     transform: scale(1.08);

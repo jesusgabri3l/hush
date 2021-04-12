@@ -1,4 +1,5 @@
 <template>
+    <!-- ALL COMPONENTS STYLES AT _HEADER -->
 	<nav class="navS">
 			<div class="container navS__container">
 				<ul class="navS__list">
@@ -18,7 +19,6 @@
 						</a>
 					</li>
 				</ul>
-				
 			</div>
 		</nav>
 </template>

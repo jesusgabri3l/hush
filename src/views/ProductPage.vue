@@ -9,7 +9,6 @@
                 <InfoProductSection />
             </div>
         </div>
-        
         <!-- STYLES AT PRODUCT/MOREPRODUCT -->
         <MoreInfo />
     </section>

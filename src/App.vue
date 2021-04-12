@@ -3,8 +3,8 @@
         <Header />
         <Breadcum />
         <ProductoPage />
-        <CompleteYourLook :products = "products"/>
-        <RecommendedProducts :products = "products"/>
+        <CompleteYourLook :products="products" />
+        <RecommendedProducts :products="products" />
         <Footer />
     </div>
 </template>

@@ -1,7 +1,6 @@
 <template>
     <div>
-    <!-- STYLES AT PRODUCT/PRODUCT -->
-
+        <!-- STYLES AT PRODUCT/PRODUCT -->
         <!-- NAME AND BASIC INFO SECTION -->
         <section class="infoProduct__grid__basic">
             <article>
@@ -10,10 +9,8 @@
                 <p class="text text--light text--bold infoProduct__grid__basic__code">Cod. de producto zap-005</p>
             </article>
         </section>
-        
         <!-- DETAIL SECTION -->
         <DetailSection />
-
         <!-- ACTIONS SECTION -->
         <section class="infoProduct__grid__actions mt-4">
             <div class="infoProduct__grid__actions__grid row">
@@ -33,7 +30,7 @@
 import DetailSection from '../DetailSection'
 export default {
     name: 'InfoProductSection',
-    components: {DetailSection},
+    components: { DetailSection },
     data() {
         return {
 

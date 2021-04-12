@@ -8,12 +8,12 @@
             <ul class="footer__socialMedia__links__list d-flex justify-content-center">
                 <li class="footer__socialMedia__links__list__item">
                     <a href="" class="footer__socialMedia__links__list__item__link">
-                        <i class="fa fa-facebook-square"></i>
+                        <i class="fab fa-facebook-f" style="font-size: 20px;"></i>
                     </a>
                 </li>
                 <li class="footer__socialMedia__links__list__item">
                     <a href="" class="footer__socialMedia__links__list__item__link">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fab fa-instagram" style="font-size: 20px;"></i>
                     </a>
                 </li>
             </ul>

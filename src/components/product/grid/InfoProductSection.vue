@@ -19,7 +19,7 @@
                         Añadir al carrito
                     </button>
                 </div>
-                <div class="col-md-3 col-3 pt-2 pl-5">
+                <div class="col-md-3 col-3 pt-2 pl-2 pl-lg-5">
                     <i class="fa fa-heart infoProduct__grid__actions__fav"></i>
                 </div>
             </div>

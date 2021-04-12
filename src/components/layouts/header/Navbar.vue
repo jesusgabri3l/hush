@@ -22,7 +22,6 @@
                         <div class="form__input">
                         <b-form-input size="sm" class="mr-sm-2 form__input__input" placeholder="Buscar"></b-form-input>
                         <i class="fa fa-angle-right"></i>
-                            
                         </div>
                     </b-nav-form>
                     <strong class="navbarL__rightSection__alert">Envios gratis para pedidos superiores a $300.000</strong>

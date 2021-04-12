@@ -3,7 +3,10 @@
     .navbarL{
         background-color: #fff !important;
         padding: 5px !important;
-        border-bottom: 1px solid #9c97a0; 
+        border-bottom: 1px solid #9c97a0;
+        @media only screen and (max-width: $break-point) {
+            padding-bottom: 30px !important;
+        } 
         &__container{
             flex-direction: column;
             align-items: start;
@@ -20,9 +23,12 @@
                 margin-bottom: 0;
             };
             &__img{
-                height: 90px;
-                width: 90px;
+                height: auto;
+                width: 100%;
                 border-radius: 2px;
+                @media only screen and (max-width: $break-point) {
+                    max-width: 70%;
+                }
             }
         };
 
@@ -37,7 +43,8 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items: flex-start;
-                padding-left: 15px;
+                padding-left: 10px;
+                padding-right: 10px;
             };
             .navbarL__list{
                 &__link{
@@ -54,7 +61,10 @@
                             right: 20px;
                         };
                     }
-                }
+                };
+            @media only screen and (max-width: $break-point) {
+                margin-bottom: 15px;
+            }
             };
         }
         &__rightSection{
@@ -63,7 +73,7 @@
             justify-content: flex-end;
             align-items: flex-end;
             position: absolute;
-            top: -6rem;
+            top: -5rem;
             right: 0;
             @media only screen and (max-width: $break-point) {
                 position: static;
@@ -90,7 +100,7 @@
                 letter-spacing: 0.5px;
                 text-transform: uppercase;
                 margin-top: 1rem;
-                margin-bottom: .7rem;
+                margin-bottom: .2rem;
                 font-weight: 400;
                 color: $primary-color;
                 font-size: 15px;
@@ -104,6 +114,11 @@
                 letter-spacing: 0.5px;
                 font-weight: 700;
                 color: #515357;
+            @media only screen and (max-width: $break-point) {
+                align-self: center;
+                justify-self: center;
+                margin-top: 10px;
+            }
             }
         }
     };

@@ -10,8 +10,6 @@
             <img src="../../../assets/img/zapato.jpg" class="infoProduct__grid__images__item img-fluid">
             <img src="../../../assets/img/zapato.jpg" class="infoProduct__grid__images__item img-fluid">
             <img src="../../../assets/img/zapato.jpg" class="infoProduct__grid__images__item img-fluid">
-            <img src="../../../assets/img/zapato.jpg" class="infoProduct__grid__images__item img-fluid">
-            <img src="../../../assets/img/zapato.jpg" class="infoProduct__grid__images__item img-fluid">
             </div>
             <div class="loader margin" :class = "loading ? '' : 'd-none'"></div>
         </div>

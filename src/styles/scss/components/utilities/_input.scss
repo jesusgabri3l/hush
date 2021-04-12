@@ -1,16 +1,19 @@
-.form{
+.form {
+    display: block;
+    @media only screen and (max-width: $break-point) {
+        width: 100%;
+    }
     &__input {
         width: 16rem;
         padding: 5px 10px;
-
         border-radius: 0;
         border: 1.5px solid #9c97a0;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
-        &__input{
+        &__input {
             border: none;
-            outline:none;
+            outline: none;
             &::placeholder {
                 color: #adb5bd;
                 text-transform: uppercase;
@@ -19,7 +22,9 @@
                 box-shadow: none;
                 border-color: #9c97a0
             };
-            
+        }
+        @media only screen and (max-width: $break-point) {
+            width: 100%;
         }
     }
 }

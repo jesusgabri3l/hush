@@ -1,11 +1,11 @@
 <template>
     <!-- STYLES AT PRODUCT/PRODUCT -->
     <section class="container container--product mt-4">
-        <div class="row px-4 infoProduct">
+        <div class="row px-lg-4 px-3 infoProduct">
             <div class="col-md-6 infoProduct__grid">
                 <ImageSection />
             </div>
-            <div class="col-md-6 infoProduct__grid px-5">
+            <div class="col-md-6 infoProduct__grid px-lg-5 px-3">
                 <InfoProductSection />
             </div>
         </div>

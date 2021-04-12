@@ -1,7 +1,7 @@
 <template>
     <!-- STYLES AT MOREPRODUCTS/CARDPRODUCT -->
     <div class="cardProduct" :class="action ? '' : 'cardProduct--lined'">
-        <img :src="`/storage/${product.foto}`" class="cardProduct__image img-fluid">
+        <img :src="`storage/${product.foto}`" class="cardProduct__image img-fluid">
         <div class="d-flex mt-4">
             <img :src="`storage/${product.foto}`" class="img-fluid cardProduct__image--sm">
             <img :src="`storage/${product.foto}`" class="img-fluid ml-4 cardProduct__image--sm">

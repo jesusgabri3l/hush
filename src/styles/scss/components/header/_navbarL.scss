@@ -18,6 +18,9 @@
         };
         &__brand{
             margin-bottom: 2px;
+            @media only screen and (max-width: 320px) {
+                    max-width: 70%;
+                };
             .navbarL_title{
                 margin-top: 0;
                 margin-bottom: 0;
@@ -28,6 +31,9 @@
                 border-radius: 2px;
                 @media only screen and (max-width: 760px) {
                     max-width: 70%;
+                };
+                @media only screen and (max-width: 320px) {
+                    max-width: 80%;
                 };
             }
         };

@@ -64,11 +64,19 @@
     			width: 100%;
                 height: 495px;
                 @media only screen and (max-width: $break-point) {
-                    height: auto;
-                }        
+                    height: 300px;
+                    width: auto;
+                };
+                @media only screen and (max-width: 320px) {
+                    height: 200px;
+                    width: auto;
+                };          
     			&__img{
     				width: 100%;
                     height: 100%;
+                    @media only screen and (max-width: $break-point) {
+                        object-fit: contain;
+                }; 
     			};
     		};
             &__item{

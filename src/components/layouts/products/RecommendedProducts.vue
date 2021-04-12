@@ -5,7 +5,7 @@
                 Productos recomendados
             </h2>
             <div class="px-5">
-                <Carousel :perPageCustom="[[1024, 4]]" :navigationEnabled="true" :perPage="1" :paginationEnabled="false" class="mt-4 carousel">
+                <Carousel :perPageCustom="[[760, 2], [1000, 3], [1300, 4]]" :navigationEnabled="true" :perPage="1" :paginationEnabled="false" class="mt-4 carousel">
                     <Slide v-for="product in products" :key="product.name">
                         <CardProduct :product="product" :action="false"/>
                     </Slide>

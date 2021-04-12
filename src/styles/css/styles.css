@@ -196,8 +196,8 @@
   .header .navbarL__rightSection {
     width: 50%;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     position: absolute;
     top: -6rem;
     right: 0; }
